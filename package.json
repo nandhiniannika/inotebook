@@ -20,7 +20,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "build": "react-scripts build",
+    "build": "npx react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "start": "set PORT=3000 && react-scripts start",
@@ -44,5 +44,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "engines": {
+  "node": "14.x",
+  "npm": "6.x"
+}
+
 }
