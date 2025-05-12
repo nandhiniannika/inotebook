@@ -17,6 +17,5 @@ app.use('/api/auth', require('./routes/auth'));
 app.use('/api/notes', require('./routes/notes'));
 
 app.listen(port, () => {
-    console.log(`Inotebook backend - https://inotebook-3-6ooa.onrender.com`);
-    // console.log(`Inotebook backend - http://localhost:${port}`);
+    console.log(`Inotebook backend - http://localhost:${port}`);
 });
